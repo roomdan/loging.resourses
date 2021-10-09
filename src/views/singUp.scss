@@ -1,0 +1,31 @@
+// FORM REGISTER SING UP - LOG-IN
+
+.form {
+    width: 100%;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .res-input {
+        outline: none;
+        padding: 0.3rem;
+    }
+}
+
+.btn-Google-auth {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 10rem;
+    background-color: red;
+    background: url(https://e7.pngegg.com/pngimages/337/722/png-clipart-google-search-google-account-google-s-google-play-google-company-text.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.button-submit{
+    color: white;
+    font-weight: 600;
+    padding: 5px;
+}

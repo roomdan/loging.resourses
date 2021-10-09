@@ -1,0 +1,49 @@
+.box-not-hav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+        margin: 0.5rem;
+        font-size: 1.3rem;
+        color: #B5DEFF;
+    }
+    
+    .svg-gretting{
+        width: 5rem;
+        height: 5rem;
+
+    }
+}
+
+.continer-profiel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .profile-data{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        span {
+            width: 6rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+            border-radius: 1rem;
+            img {
+                width: 100%;
+                border-radius: 1rem;
+            }
+        }
+        h3 {
+            margin-top: 1rem;
+            font-size: 2.1rem;
+        }
+    }
+    .mail-info{
+        width: 100%;
+    }
+}
