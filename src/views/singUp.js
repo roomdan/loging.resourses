@@ -51,7 +51,7 @@ export default function SingUp ({children}) {
     )
 
 return (
-    <div className='bg-darkff p-5 w-screen h-screen flex justify-center items-center'>
+    <div className='bg-darkff w-screen h-screen flex justify-center items-center'>
         <div className='md:w-1/2 w-full min-h-1/2 bg-dark rounded'>
             <div className='w-full flex justify-center items-center p-3 bg-darkHead bb-1 rounded text-white text-2xl font-bold'>
                 <h1>Sign Up</h1>

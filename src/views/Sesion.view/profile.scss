@@ -5,8 +5,9 @@
     align-items: center;
     h1 {
         margin: 0.5rem;
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         color: #B5DEFF;
+        text-align: center;
     }
     
     .svg-gretting{
@@ -32,18 +33,24 @@
             align-items: center;
             justify-content: center;
             box-sizing: border-box;
-            border-radius: 1rem;
+            border-radius: 100%;
             img {
                 width: 100%;
-                border-radius: 1rem;
+                border-radius: 100%;
             }
         }
         h3 {
             margin-top: 1rem;
-            font-size: 2.1rem;
+            font-size: 1.5rem;
         }
     }
     .mail-info{
         width: 100%;
     }
+}
+
+.log-out {
+    top:5px;
+    right: 5px;
+    position: fixed;
 }
